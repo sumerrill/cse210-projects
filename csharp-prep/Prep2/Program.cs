@@ -39,7 +39,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("Don't give up. Keep trying!");
+            Console.WriteLine("You didn't passed. Good luck next time!");
         }
     }
 }
