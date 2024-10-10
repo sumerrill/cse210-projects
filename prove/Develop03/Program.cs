@@ -6,12 +6,10 @@ namespace ScriptureMemorizer
     {
         static void Main(string[] args)
         {
-            // Set up scripture with reference and text
             var reference = new ScriptureReference("Proverbs", 3, 5, 6);
             var scriptureText = "Trust in the Lord with all thine heart; and lean not unto thine own understanding.";
             var scripture = new Scripture(reference, scriptureText);
 
-            // Loop for user interaction
             while (true)
             {
                 Console.Clear();
